@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Regurlap</title>
+</head>
+<body>
+    <div class="box1">
+        <h1>Regisztrációs űrlap</h1>
+        <p>A csillaggal jelölt mezők kitöltése kötelező</p>
+            <div class="box2">
+                <form method="post" action="ham.html">
+                <p>Teljes név:</p>
+                <input type="text">
+                
+                <p>Felhasználónév *</p>
+                <input type="text" required>
+                
+                <p>Email*</p>
+                <input type="email" required>
+
+                <p>Jelszó*</p>
+                <input type="password" required>
+
+                <p>Jelszó mégegyszer*</p>
+                <input type="password" required>
+            
+
+                <legend> Nem </legend>
+                <label for="Deigen"> De igen </label>
+                <input type="radio" id="deigen" name="interest" value="deigen" checked >
+                <label for="man"> Férfi </label>
+                <input type="radio" id="man" name="interest" value="man" >
+                <label for="woman"> Nő </label>
+                <input type="radio" id="woman" name="interest" value="woman" >
+
+
+                    <p>Kor</p>
+                    <select> 
+                        <option>Válassz!</option> 
+                        <option >Kisgyerek</option>
+                        <option >Fiatalkor</option>
+                        <option >Felnőttkor</option>
+                        <option >Időskor</option>
+                    </select>
+
+                    
+                    <legend> Érdeklődés </legend>
+                    <label for="jarmu"> Jármű </label>
+                    <input type="checkbox" id="jarmu" name="interest" value="jarmu" checked >
+                    <label for="book"> Ajándék</label>
+                    <input type="checkbox" id="ajandek" name="interest" value="ajandek" >
+                    <label for="film"> Étel </label>
+                    <input type="checkbox" id="etel" name="interest" value="etel" >
+                    <label for="utazas"> Utazás </label>
+                    <input type="checkbox" id="utazas" name="interest" value="utazas" >
+
+
+                    <p>Bármilyen megjegyzés!</p>
+                    <textarea> Ide írhat!</textarea>
+<br>
+                    <button> Űrlap törlése</button>
+                    <button> Regisztrálok</button>
+                </form>
+            </div>
+            <a href="belep.html"><h1 style="color:blue">Már regisztráltál?</h1></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 40%;
+    background-color: powderblue;
+    border-radius: 15px;
+    border: 3px solid darkblue;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+}
+.box2{
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 15px;
+}
+legend{
+    margin-top: 10px;
+}
+label{
+    margin-left: 10px;
+}
+button{
+    margin-top: 10px;
+}
+.gombocska{
+    background-color: blue;
+    
+}
+textarea{
+    height: 100px;
+    width: 250px;
+}
